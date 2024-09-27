@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baixe o navegador Formigo, rápido, seguro e com design inovador.">
+    <title>Formigo - O Navegador Rápido e Seguro</title>
+    <style>
+        /* Estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header .logo {
+            width: 50px;
+            vertical-align: middle;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seção Hero */
+        #hero {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        #hero .btn {
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #hero .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Funcionalidades */
+        #features {
+            background-color: #f4f4f4;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #features h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .feature-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature-item {
+            width: 30%;
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-size: 16px;
+        }
+
+        /* Seção de Download */
+        #download {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        #download h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .download-options a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: white;
+            color: #4CAF50;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .download-options a:hover {
+            background-color: #eee;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img src="https://example.com/logo.png" alt="Logo do Formigo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#features">Funcionalidades</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div class="container">
+            <h1>Bem-vindo ao Formigo</h1>
+            <p>O navegador rápido, seguro e com design inovador.</p>
+            <a href="#download" class="btn">Baixe Agora</a>
+        </div>
+    </section>
+
+    <!-- Funcionalidades -->
+    <section id="features">
+        <div class="container">
+            <h2>Funcionalidades</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Velocidade</h3>
+                    <p>Navegação ultrarrápida para otimizar seu tempo online.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Segurança</h3>
+                    <p>Protocolo avançado de segurança para proteger seus dados.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Interface Intuitiva</h3>
+                    <p>Um design simples e acessível para uma experiência perfeita.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Download -->
+    <section id="download">
+        <div class="container">
+            <h2>Baixe o Formigo Agora</h2>
+            <div class="download-options">
+                <a href="#">Windows</a>
+                <a href="#">Mac</a>
+                <a href="#">Linux</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <h2 id="contact">Entre em Contato</h2>
+            <p>Envie suas perguntas para <a href="mailto:suporte@formigo.com">suporte@formigo.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth Scroll para navegação suave entre seções
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
